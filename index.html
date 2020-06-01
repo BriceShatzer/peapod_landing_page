@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hello, we’re gtd.</title>
+        <meta name="author" content="gtd">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+        <style>
+/*basic reset*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* -- */
+:root {font-size: 20px;}
+h1, h2, h3 {
+    font-weight: 900;
+    font-family: 'Roboto Black', 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+h4, p {
+    font-family: 'Roboto Black', 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+h2,h3 {color: #E8BE02;}
+h3,p {font-size: 20px;}
+h1 {
+    color: #4F4D53;
+    font-size: 100px;
+}
+h2 {font-size: 64px;}
+h4 {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+nav > div,
+header > *,
+section > *,
+footer > * {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav, footer {background-color: #4F4D53 ;}
+nav { 
+    height: 48px 
+}
+nav > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #E8BE02;
+    background-image: url('./media/img_hero.jpg');
+    background-position:  bottom center;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    padding-top: 38.19%;
+}
+header h1 {
+    margin-top: -38.19%
+}
+
+section {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+section h2 { margin-bottom: 4rem;}
+footer {
+    border-top:solid 12px #E8BE02;
+    height: 320px;
+    padding: 2rem;
+}
+footer>div {
+    display:flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px){
+    h1 {font-size: 10vw;}
+    header h1,
+    nav {
+        padding: 0px 2rem;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <a href="#"><img src="/media/gtd_logo.png" alt="gtd logo" /></a>            
+            </div>
+        </nav>
+        <header>
+            <h1>Hello, we’re gtd.</h1>
+
+        </header>
+        <section>
+            <h2>How it started</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
+            isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in c
+            ulpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+        <footer>
+            <div>
+                <div>
+                    <h3 class=>Team</h3>
+                    <h4>Lisa</h4>
+                    <h4>Danielle</h4>
+                    <h4>Brian</h4>
+                    <h4>Join us!</h4>
+                </div>
+                <div>
+                    <h3>Learn More</h3>
+                    <h4>Manifesto</h4>
+                    <h4>Works</h4>
+                    <h4>Stories</h4>
+                </div>
+                <div>
+                    <h3>Meet Us</h3>
+                    <h4>Studio</h4>
+                    <h4>Community</h4>
+                    <h4>Workshops</h4>
+                </div>
+                <div>                    
+                    <h3>Contact</h3>
+                    <h4>Twitter</h4>
+                    <h4>Facebook</h4>
+                    <h4>Instagram</h4>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
